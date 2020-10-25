@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leoncito Panaderia", "Leoncito Panaderia\Leoncito Panaderia.csproj", "{199381EC-E4D6-4AF0-8AA4-0AEBDADC513D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Funciones", "Funciones\Funciones.csproj", "{32AB6685-B61E-48BB-B353-68E2890ECAD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{199381EC-E4D6-4AF0-8AA4-0AEBDADC513D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199381EC-E4D6-4AF0-8AA4-0AEBDADC513D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199381EC-E4D6-4AF0-8AA4-0AEBDADC513D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199381EC-E4D6-4AF0-8AA4-0AEBDADC513D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32AB6685-B61E-48BB-B353-68E2890ECAD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32AB6685-B61E-48BB-B353-68E2890ECAD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32AB6685-B61E-48BB-B353-68E2890ECAD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32AB6685-B61E-48BB-B353-68E2890ECAD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0724381C-764E-42B7-A6F3-6F59FC717814}
+	EndGlobalSection
+EndGlobal

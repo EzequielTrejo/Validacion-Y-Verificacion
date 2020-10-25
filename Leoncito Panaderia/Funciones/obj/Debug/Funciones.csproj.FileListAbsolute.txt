@@ -1,0 +1,10 @@
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Funciones.dll
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Funciones.pdb
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Microsoft.Analytics.Interfaces.dll
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Microsoft.Analytics.Types.dll
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.csprojAssemblyReference.cache
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.csproj.CoreCompileInputs.cache
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.csproj.CopyComplete
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.dll
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.pdb

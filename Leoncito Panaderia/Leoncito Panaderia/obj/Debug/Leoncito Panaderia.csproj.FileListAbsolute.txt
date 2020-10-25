@@ -1,0 +1,14 @@
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\obj\Debug\Leoncito Panaderia.csprojAssemblyReference.cache
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\obj\Debug\Leoncito_Panaderia.NuevaVenta.resources
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\obj\Debug\Leoncito_Panaderia.Properties.Resources.resources
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\obj\Debug\Leoncito Panaderia.csproj.GenerateResource.cache
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\obj\Debug\Leoncito Panaderia.csproj.CoreCompileInputs.cache
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\bin\Debug\Leoncito Panaderia.exe.config
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\bin\Debug\Leoncito Panaderia.exe
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\bin\Debug\Leoncito Panaderia.pdb
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\bin\Debug\Funciones.dll
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\bin\Debug\Funciones.pdb
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\obj\Debug\Leoncito Panaderia.csproj.CopyComplete
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\obj\Debug\Leoncito Panaderia.exe
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\obj\Debug\Leoncito Panaderia.pdb
+E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Leoncito Panaderia\obj\Debug\Leoncito_Panaderia.RealizacionDelPago.resources
