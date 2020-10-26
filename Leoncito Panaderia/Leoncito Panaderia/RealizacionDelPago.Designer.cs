@@ -30,8 +30,10 @@
         {
             this.dgvInformeDeCompra = new System.Windows.Forms.DataGridView();
             this.btnCobrar = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.txtMontoCliente = new System.Windows.Forms.TextBox();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblVuelto = new System.Windows.Forms.Label();
+            this.btnFinalizar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvInformeDeCompra)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,26 +60,49 @@
             this.btnCobrar.TabIndex = 1;
             this.btnCobrar.Text = "Cobrar";
             this.btnCobrar.UseVisualStyleBackColor = true;
+            this.btnCobrar.Click += new System.EventHandler(this.btnCobrar_Click);
             // 
-            // textBox1
+            // txtMontoCliente
             // 
-            this.textBox1.Location = new System.Drawing.Point(116, 304);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(146, 20);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.Text = "Monto abonado por el cliente";
+            this.txtMontoCliente.Location = new System.Drawing.Point(116, 304);
+            this.txtMontoCliente.Name = "txtMontoCliente";
+            this.txtMontoCliente.Size = new System.Drawing.Size(146, 20);
+            this.txtMontoCliente.TabIndex = 3;
+            this.txtMontoCliente.Text = "Monto abonado por el cliente";
+            this.txtMontoCliente.MouseClick += new System.Windows.Forms.MouseEventHandler(this.txtMontoCliente_MouseClick);
             // 
-            // label1
+            // lblTotal
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.Control;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(312, 292);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 24);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Total";
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.BackColor = System.Drawing.SystemColors.Control;
+            this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTotal.ForeColor = System.Drawing.Color.Red;
+            this.lblTotal.Location = new System.Drawing.Point(319, 292);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(56, 24);
+            this.lblTotal.TabIndex = 4;
+            this.lblTotal.Text = "Total";
+            // 
+            // lblVuelto
+            // 
+            this.lblVuelto.AutoSize = true;
+            this.lblVuelto.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblVuelto.Location = new System.Drawing.Point(320, 321);
+            this.lblVuelto.Name = "lblVuelto";
+            this.lblVuelto.Size = new System.Drawing.Size(70, 24);
+            this.lblVuelto.TabIndex = 5;
+            this.lblVuelto.Text = "Vuelto";
+            // 
+            // btnFinalizar
+            // 
+            this.btnFinalizar.Location = new System.Drawing.Point(441, 292);
+            this.btnFinalizar.Name = "btnFinalizar";
+            this.btnFinalizar.Size = new System.Drawing.Size(110, 42);
+            this.btnFinalizar.TabIndex = 6;
+            this.btnFinalizar.Text = "Finalizar Venta";
+            this.btnFinalizar.UseVisualStyleBackColor = true;
+            this.btnFinalizar.Visible = false;
+            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
             // 
             // RealizacionDelPago
             // 
@@ -86,8 +111,10 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.btnFinalizar);
+            this.Controls.Add(this.lblVuelto);
+            this.Controls.Add(this.lblTotal);
+            this.Controls.Add(this.txtMontoCliente);
             this.Controls.Add(this.btnCobrar);
             this.Controls.Add(this.dgvInformeDeCompra);
             this.Name = "RealizacionDelPago";
@@ -103,7 +130,9 @@
 
         private System.Windows.Forms.DataGridView dgvInformeDeCompra;
         private System.Windows.Forms.Button btnCobrar;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtMontoCliente;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblVuelto;
+        private System.Windows.Forms.Button btnFinalizar;
     }
 }

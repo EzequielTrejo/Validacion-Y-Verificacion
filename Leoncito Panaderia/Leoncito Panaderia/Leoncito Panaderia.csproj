@@ -75,7 +75,6 @@
     <EmbeddedResource Include="RealizacionDelPago.resx">
       <DependentUpon>RealizacionDelPago.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="Properties\DataSources\NuevaVenta.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -94,6 +93,9 @@
       <Project>{32ab6685-b61e-48bb-b353-68e2890ecad5}</Project>
       <Name>Funciones</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

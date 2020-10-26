@@ -12,8 +12,11 @@ namespace Leoncito_Panaderia
 {
     public partial class NuevaVenta : Form
     {
+        Funciones.Cuentas Cuentas = new Funciones.Cuentas();
         DataTable ProductosVendidos = new DataTable();
         DataTable TablaFinal = new DataTable();
+        decimal SumaTotal;
+        decimal Total;
         public NuevaVenta()
         {
             InitializeComponent();
@@ -26,7 +29,6 @@ namespace Leoncito_Panaderia
             ProductosVendidos.Columns.Add("Descripcion", typeof(string));
             ProductosVendidos.Columns.Add("PrecioUnitario", typeof(decimal));
             ProductosVendidos.Columns.Add("Total", typeof(decimal));
-            //preguntar al profesor por ultimas tres columnas
         }
 
         public void btnAgregar_Click(object sender, EventArgs e)
@@ -35,7 +37,9 @@ namespace Leoncito_Panaderia
             if(Ver.Validate(Convert.ToInt32(txtCantidad.Text)) == true)
             {
                 TablaFinal = TablaProductosVendidos();
+                txtSumaTotal.Text = Total.ToString();
             }
+            Limpiar();
         }
 
         public DataTable TablaProductosVendidos()
@@ -47,21 +51,18 @@ namespace Leoncito_Panaderia
                 ProductosVendidos.Columns.Add("Cantidad", typeof(int));
                 ProductosVendidos.Columns.Add("Descripcion", typeof(string));
                 ProductosVendidos.Columns.Add("PrecioUnitario", typeof(decimal));
+                ProductosVendidos.Columns.Add("Total", typeof(decimal));
                 return ProductosVendidos;
             }
             else
             {
-                Funciones.Cuentas Cuentas = new Funciones.Cuentas();
-                Random Random = new Random();
-                decimal Precio;
-                decimal Total;
-                Precio = Random.Next(1, 50000);
-                Total = Cuentas.Suma(Convert.ToInt32(txtCantidad.Text), Precio);
+                Total = Cuentas.Suma(Convert.ToInt32(txtCantidad.Text), Convert.ToInt32(txtPrecioUnitario.Text));
                 DataRow NR = ProductosVendidos.NewRow();
                 NR["Codigo"] = txtCodProd.Text;
                 NR["Cantidad"] = txtCantidad.Text;
-                NR["Descripcion"] = "No Dísponible";
-                NR["PrecioUnitario"] = Precio;
+                NR["Descripcion"] = txtDescripcion.Text;
+                NR["PrecioUnitario"] = Convert.ToInt32(txtPrecioUnitario.Text);
+                NR["Total"] = Total;
                 ProductosVendidos.Rows.Add(NR);
                 return ProductosVendidos;
             }
@@ -69,17 +70,33 @@ namespace Leoncito_Panaderia
 
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
+            Limpiar();
+        }
+
+        public void Limpiar()
+        {
             txtCantidad.Text = "";
             txtCodProd.Text = "";
+            txtDescripcion.Text = "";
+            txtPrecioUnitario.Text = "";
         }
 
         private void btnFinalizar_Click(object sender, EventArgs e)
         {
             RealizacionDelPago RDP = new RealizacionDelPago();
+            SumaTotal = Cuentas.ResultadoFinal(ProductosVendidos);
             RDP.Product = TablaFinal;
+            RDP.ResultadoFinal = SumaTotal;
             this.Hide();
             RDP.Show();
         }
 
+        private void txtCodProd_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if(KeyPress e.KeyChar = )
+            {
+
+            }
+        }
     }
 }
