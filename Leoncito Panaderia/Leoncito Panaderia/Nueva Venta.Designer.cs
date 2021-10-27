@@ -79,7 +79,6 @@
             this.txtCodProd.Name = "txtCodProd";
             this.txtCodProd.Size = new System.Drawing.Size(100, 20);
             this.txtCodProd.TabIndex = 3;
-            this.txtCodProd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodProd_KeyPress);
             // 
             // txtCantidad
             // 

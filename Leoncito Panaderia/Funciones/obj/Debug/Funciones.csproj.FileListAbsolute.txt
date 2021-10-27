@@ -8,3 +8,13 @@ E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.cs
 E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.csproj.CopyComplete
 E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.dll
 E:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.pdb
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Funciones.dll
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Funciones.pdb
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Microsoft.Analytics.Interfaces.dll
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\bin\Debug\Microsoft.Analytics.Types.dll
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.csproj.AssemblyReference.cache
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.csproj.CoreCompileInputs.cache
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.csproj.CopyComplete
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.dll
+D:\Github\ModeladoDeSistemas\Leoncito Panaderia\Funciones\obj\Debug\Funciones.pdb

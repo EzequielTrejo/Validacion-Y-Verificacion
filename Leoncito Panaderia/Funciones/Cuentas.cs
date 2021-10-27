@@ -12,7 +12,7 @@ namespace Funciones
         public decimal Suma(int cantidad, decimal precio)
         {
             decimal Total = 0;
-            Total = Total + precio * cantidad;
+            Total = Total + precio / cantidad;
             return Total;
         }
 

@@ -58,10 +58,9 @@ namespace Leoncito_Panaderia
             {
                 Total = Cuentas.Suma(Convert.ToInt32(txtCantidad.Text), Convert.ToInt32(txtPrecioUnitario.Text));
                 DataRow NR = ProductosVendidos.NewRow();
-                NR["Codigo"] = txtCodProd.Text;
-                NR["Cantidad"] = txtCantidad.Text;
+                NR["PrecioUnitario"] = txtCodProd.Text;
                 NR["Descripcion"] = txtDescripcion.Text;
-                NR["PrecioUnitario"] = Convert.ToInt32(txtPrecioUnitario.Text);
+                NR["Codigo"] = Convert.ToInt32(txtPrecioUnitario.Text);
                 NR["Total"] = Total;
                 ProductosVendidos.Rows.Add(NR);
                 return ProductosVendidos;
@@ -89,14 +88,6 @@ namespace Leoncito_Panaderia
             RDP.ResultadoFinal = SumaTotal;
             this.Hide();
             RDP.Show();
-        }
-
-        private void txtCodProd_KeyPress(object sender, KeyPressEventArgs e)
-        {
-            if(KeyPress e.KeyChar = )
-            {
-
-            }
         }
     }
 }
